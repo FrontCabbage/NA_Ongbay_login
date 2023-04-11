@@ -1,0 +1,64 @@
+body{
+    background-color: #404040;
+}
+header{
+    background-color: black;
+    border: 1px black solid;
+}
+.title{
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+}
+section{
+    width: 60%;
+    float: left;
+    border: 1px black solid;
+    border-radius: 25px;
+    background-color: white;
+    margin: 50px 25px;
+}
+.description{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+.login{
+    padding: 10px;
+    width: 35%;
+    height: 500px;
+    float: left;
+    margin: 25px auto;
+    border: 1px white solid;
+    border-radius: 25px;
+    background-color: gray;
+}
+.input{
+    margin-top: 50px;
+}
+.input, .username, .password{
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.youtube{
+	background: url('socmed.jpg') no-repeat -1112px -264px;
+	width: 120px;
+	height: 120px;
+}
+.pinterest{
+	background: url('socmed.jpg') no-repeat -1112px -472px;
+	width: 120px;
+	height: 120px;
+}
+.footer, .infos{
+    border: 1px black solid;
+    background-color: rgba(193,193,193,1);
+}
+.socmed{
+    float: right;
+}
+.infos{
+    float: left;
+}
